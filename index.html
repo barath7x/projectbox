@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Model</title>
+	<style type="text/css">
+		*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+.box1{
+	width: 25%;
+	height: 4%;
+	background: rgb(251,100,250);
+	border-style: dashed;
+	border-color: black;
+	border-width: 10px;
+	border-radius: 15px;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.box2{
+	width: 25%;
+	height: 4%;
+	background: rgb(100,100,250);
+	border-style: dashed;
+	border-color: black;
+	border-width: 10px;
+	border-radius: 15px;
+	margin-left: 12% ;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.box3{
+	width: 25%;
+	height: 4%;
+	background: rgb(100,100,100);
+	border-style: dashed;
+	border-color: black;
+	border-width: 10px;
+	border-radius: 15px;
+	float: right;
+	color: black;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.box4{
+	height: 4%;
+	background: rgb(100,200,100);
+	border-style: dashed;
+	border-color: black;
+	border-width: 10px;
+	border-radius: 15px;
+	margin-top: 50px;
+	color: black;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+
+}
+
+	</style>
+</head>
+<body>
+	<div class="box1"><h1>Box1</h1></div>
+	<div class="box2"><h1>Box2</h1></div>
+	<div class="box3"><h1>Box3</h1></div>
+	<div class="row"></div>
+	<div class="box4"><h1>Box4</h1></div>
+</body>
+</html>
